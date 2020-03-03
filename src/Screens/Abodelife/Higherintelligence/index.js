@@ -24,7 +24,11 @@ class Higherintelligence extends Component{
                      </div>
                     <div class="col-md-8">
                     <div class="card-body"> 
-                    <p class="card-text1"> When a child reaches 6 years + a Higher Intelligence of the child is identified. They are then encouraged to pursue that stream to a higher level.<br/><br/></p>
+                    <p class="card-text1"> When a child reaches 6 years + a Higher Intelligence of the child is identified. They are then encouraged to pursue that stream to a higher level.</p><br/><br/>
+                    <p class="card-text1">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br/><br/>
+                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br/><br/></p>
+                         <p class="card-text1">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br/><br/>
+                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br/><br/></p>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@ const Header = props =>(
                                 <a className="nav-link" href="#">Term Date</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/contact">Contact</a>
+                                <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
                             <div className="">
                                 <a  href="https://www.facebook.com/ABODESchool/" target="_blank"><img src={social1} className="social1 " /></a>
@@ -89,7 +89,7 @@ const Header = props =>(
       </li>
       </ul>
   </div>
-  <button type="button" className="btn btn-primary btn1">Admissions</button>
+  <button type="button" className="btn btn1">Admissions</button>
 </nav>
 </div>
 

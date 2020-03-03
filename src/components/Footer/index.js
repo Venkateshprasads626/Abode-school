@@ -12,7 +12,7 @@ const Footer = props =>(
       <div className="row">
   
       
-        <div className="col-md-2 mt-md-0 mt-3">
+        <div className="col-md-3 mt-md-0 mt-3">
             <h4 className="h4-footer">Contact ABODE</h4>
           <p className="add">Gachibowli Campus:<br/>
                   MIG 29 - 32<br/>
@@ -22,7 +22,7 @@ const Footer = props =>(
                   Email: abodekids@gmail.com </p>
   
         </div>
-        <div className="col-md-4 mt-md-0 mt-3">
+        <div className="col-md-3 mt-md-0 mt-3">
   <p className="add1">Nallagandla Campus:<br/>
       86/C, Huda Layout<br/>
       Opp Aparna Sarovar<br/>

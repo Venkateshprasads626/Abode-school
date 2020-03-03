@@ -52,6 +52,9 @@
         text-align: start;
         margin-left: 4%;
     }
+    .group11{
+        height: 600px;
+    }
 
 }
 @media screen and (max-width: 560px) {

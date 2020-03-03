@@ -53,10 +53,11 @@
       }
       
       .navbar-nav li a{
-          font-size: 20px;
+          font-size: 18px;
           margin-left: 1rem;
           margin-right: 1rem;   
           color: black !important;
+          font-family: 'Merriweather';
       }
       .navbar-nav li a:hover{
         color: gray !important;
@@ -67,8 +68,15 @@
           height: 80px;
           border-radius: none;
           vertical-align: auto;
-          
+          background-color: #000080;
+          color: white;
+          font-size: 20px;
+          font-family: 'Merriweather';
       }
+      .btn1:hover{
+        
+        background-color: #000080;; 
+    }
       .nav1{
         height: 50px;
       }
@@ -86,6 +94,15 @@
      }
       
   }
+@media screen and (min-width: 992px) {
+  .navbar-nav li a{
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+}
 
   @media screen and (max-width: 560px) {
     .abodelogo{
@@ -97,4 +114,16 @@
       left: 2%;  
       right: 0;  
   }
+  }
+  @media screen  and (min-width: 1200px) {
+    .navbar-nav li a{
+      font-size: 18px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-top: -5px;
+    }
+    .navbar-nav1 li a{
+      font-size: 15px;
+      margin-top: -20px;
+    }
   }

@@ -75,7 +75,7 @@ const Header = props =>(
           </a>
             <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <Link to="#"><button className="dropdown-item" type="button">Founders</button></Link>
-                <Link to="#"><button className="dropdown-item" type="button">Seniormanagement</button></Link>
+                <Link to="#"><button className="dropdown-item" type="button">Senior management</button></Link>
                 <Link to="#"><button className="dropdown-item" type="button">Teachers</button></Link>
                 <Link to="#"><button className="dropdown-item" type="button">Resource Teachers</button></Link>
                 <Link to="#"><button className="dropdown-item" type="button">Management Team</button></Link>

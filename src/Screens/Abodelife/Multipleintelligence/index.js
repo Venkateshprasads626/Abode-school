@@ -19,7 +19,7 @@ class Multipleintelligence extends Component{
                 <img src={Group8} className="group8" />
             </div>
             <h1 className="philosophy-title">Multiple Intelligence</h1>
-                <div class="card mb-3 card2">
+                <div className="card mb-3 card2">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src={Group9} class="card-img" alt="..." /> 

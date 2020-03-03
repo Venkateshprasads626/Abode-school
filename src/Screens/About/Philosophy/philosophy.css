@@ -7,16 +7,29 @@
     flex: 1 0 auto;
 }
 
-.card2{
-    margin-top: 5%;
-    width: 50%;
-    height: 600px;
-}
 
 .group8{
     width: 100%;
 }
-
+@media screen and (min-width: 1200px) {
+    .card2{
+        height: 500px !important;
+      
+    }
+     .card-text1{
+         font-size: 20px;
+         line-height: 1.5;
+         text-align: start;
+         margin-left: 3%;
+         margin-top: -6%;
+     }
+     .card-text2{
+         font-size: 20px;
+         text-align: start;
+         margin-left: 4%;
+     }
+ 
+ }
 @media screen and (min-width: 768px) {
     .card2{
         margin-top: 5%;
@@ -38,23 +51,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .card2{
-        height: 700px;
-    }
-    .card-text1{
-        font-size: 20px;
-        line-height: 1.5;
-        text-align: start;
-        margin-left: 3%;
-    }
-    .card-text2{
-        font-size: 20px;
-        text-align: start;
-        margin-left: 4%;
-    }
 
-}
 @media screen and (max-width: 560px) {
     .card2{
         left: -15%;

@@ -7,11 +7,7 @@
     flex: 1 0 auto;
 }
 
-.card2{
-    margin-top: 5%;
-    width: 50%;
-    height: 600px;
-}
+
 
 .group11{
     width: 100%;
@@ -38,9 +34,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .card2{
-        height: 700px
-    }
+    
     .card-text1{
         font-size: 20px;
         line-height: 1.5;

@@ -1,0 +1,41 @@
+.Video{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+/* @media screen and (min-width: 300px) {
+    .Video{
+        width: 80%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .Video{
+        margin-top: 4%;
+        margin-bottom: 5%;
+  
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .Video{
+        width: 50%;
+    }
+} */
+
+@media screen and (max-width: 560px) {
+    .Video{
+        width: 80%;
+    }
+}

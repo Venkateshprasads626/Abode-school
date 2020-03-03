@@ -1,0 +1,54 @@
+.Explore{
+    margin-top: 0px;
+}
+
+.explore-text{
+    font-size: 22px;
+    margin-top: 30px;
+    font-family: 'Merriweather';
+}
+
+h1{
+    font-family: 'Merriweather';
+    color: #000080;
+    margin-top: 80px;
+}
+
+@media screen and (min-width: 320px) {
+    .explore-text{
+        font-size: 0.9rem;
+        margin-top: 30px;
+        font-family: 'Merriweather';
+        margin-bottom: 2%;
+    }
+    h1{
+        font-size: 1.2rem;
+        margin-top: 2%;
+    }
+}
+@media screen and (min-width: 768px) {
+   
+    .explore-text{
+        font-size: 1.2rem;
+        margin-top: 10px;
+        font-family: 'Merriweather';
+        margin-bottom: 2%;
+    }
+    h1{
+        font-size: 1.2rem;
+        margin-top: 2%;
+    }
+}
+@media screen and (min-width: 1200px) {
+   
+    .explore-text{
+        font-size: 1.5rem;
+        margin-top: 10px;
+        font-family: 'Merriweather';
+        margin-bottom: 2%;
+    }
+    h1{
+        font-size: 1.8rem;
+        margin-top: 2%;
+    }
+}

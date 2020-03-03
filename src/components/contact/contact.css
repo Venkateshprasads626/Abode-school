@@ -1,0 +1,222 @@
+.contact-add,.contact-add1{
+    text-align: start;
+    font-family: 'Merriweather';
+}
+
+#site-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#contact{
+  flex: 1 0 auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.row{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.contact-title{
+    text-align: start;
+    font-family: 'Merriweather';
+    color: #000080;
+    font-size: 20px;
+}
+.contact-add1{
+    margin-top: 15%;
+}
+.contact-add2{
+    text-align: start;
+    line-height: 2;
+}
+.contact-add3{
+    font-family: 'Merriweather';
+    color: gray;
+}
+.contact-add4{
+    margin-top: -4%;
+}
+.contact-add4:hover{
+    color: gray;
+}
+.contact-add5{
+    text-align: start;
+    font-family: 'Merriweather';
+}
+form{
+    width: 100%;
+    margin-left: -24%;
+}
+
+label{
+    color: #000080;
+    font-size: 20px;
+}
+input[type="text"] {
+    width: 300px;
+    height: 50px;
+}
+input[type="email"] {
+    width: 300px;
+    height: 50px;
+}
+textarea{
+    width: 300px;
+    height: 200px;
+}
+.btn6{
+    margin-top: 5%;
+
+    width: 150px;
+}
+
+@media screen and (max-width: 560px) {
+    form{
+        margin-left: 0px;
+    }
+    .contact-add1,.contact-add,.contact-add2,.contact-add3,.contact-title,.contact-add5{
+        text-align: center;
+    }
+    .keycontact,.questions{
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .row{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .contact-title{
+        text-align: start;
+        font-family: 'Merriweather';
+        color: #000080;
+        font-size: 10px;
+    }
+    .contact-add{
+        font-size: 10px;
+    }
+    .contact-add1{
+        margin-top: 15%;
+        font-size: 10px;
+    }
+    .contact-add2{
+        text-align: start;
+        line-height: 2;
+        font-size: 10px;
+    }
+    .contact-add3{
+        font-family: 'Merriweather';
+        color: gray;
+        font-size: 10px;
+    }
+    .contact-add4{
+        margin-top: -4%;
+        font-size: 10px;
+    }
+    .contact-add4:hover{
+        color: gray;
+    }
+    .contact-add5{
+        text-align: start;
+        font-family: 'Merriweather';
+    }
+    form{
+        width: 100%;
+        margin-left: -1%;
+    }
+    input[type="text"] {
+        width: 300px;
+        height: 40px;
+    }
+    input[type="email"] {
+        width: 300px;
+        height: 40px;
+    }
+    textarea{
+        width: 300px;
+        height: 200px;
+    }
+    label{
+        font-size: 15px;
+    }
+
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .row{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .contact-title{
+        text-align: start;
+        font-family: 'Merriweather';
+        color: #000080;
+        font-size: 20px;
+    }
+    .contact-add1{
+        margin-top: 15%;
+        font-size: 15px;
+    }
+    .contact-add{
+        font-size: 15px;
+    }
+    .contact-add2{
+        text-align: start;
+        line-height: 2;
+    }
+    .contact-add3{
+        font-family: 'Merriweather';
+        color: gray;
+        font-size: 15px;
+    }
+    .contact-add4{
+        margin-top: -4%;
+        font-size: 15px;
+    }
+    .contact-add4:hover{
+        color: gray;
+    }
+    .contact-add5{
+        text-align: start;
+        font-family: 'Merriweather';
+    }
+    form{
+        width: 100%;
+        margin-left: -20%;
+    }
+    
+    label{
+        color: #000080;
+        font-size: 20px;
+    }
+    input[type="text"] {
+        width: 300px;
+        height: 50px;
+    }
+    input[type="email"] {
+        width: 300px;
+        height: 50px;
+    }
+    textarea{
+        width: 300px;
+        height: 200px;
+    }
+    .btn6{
+        margin-top: 5%;
+    
+        width: 150px;
+    }
+}

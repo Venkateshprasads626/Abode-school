@@ -1,0 +1,100 @@
+.nav1{
+    height: 60px;
+    background-color: #f2f2f2;
+  }
+  .navbar {
+      min-height: 80px;
+    }
+
+    .dropdown:hover>.dropdown-menu{
+      display: block;
+    }
+  
+    
+    
+    /* .navbar-brand {
+      padding: 0 15px;
+      height: 80px;
+      line-height: 80px;
+    } */
+    
+    .navbar-toggle {
+      /* (80px - button height 34px) / 2 = 23px */
+      margin-top: 23px;
+      padding: 9px 10px !important;
+    }
+    @media screen and (max-width: 768px){
+      .nav1{
+        display: none !important;
+      }
+      .btn1{
+        display: none !important;
+      }
+    }
+    
+    @media (min-width: 768px) {
+      .navbar-nav > li > a {
+        /* (80px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+      }
+    }
+  
+  @media screen and (min-width: 768px) {
+      .abodelogo{
+          max-height: 100%;  
+          max-width: 100%; 
+          position: absolute;  
+          top: 0;  
+          bottom: 0;  
+          left: 2%;  
+          right: 0;  
+      }
+      
+      .navbar-nav li a{
+          font-size: 20px;
+          margin-left: 1rem;
+          margin-right: 1rem;   
+          color: black !important;
+      }
+      .navbar-nav li a:hover{
+        color: gray !important;
+    }
+  
+      .btn1{
+          width: 200px;
+          height: 80px;
+          border-radius: none;
+          vertical-align: auto;
+          
+      }
+      .nav1{
+        height: 50px;
+      }
+      .navbar-nav1 li a{
+        font-size: 18px;
+        margin-top: -20px;
+      }
+      .navbar-nav1 li a:hover{
+        background-color: #000080;
+        color: white !important;
+      }
+      .social1,.social2,.social3{
+        margin-right: 0.3em;
+        margin-top: 0.3em;
+     }
+      
+  }
+
+  @media screen and (max-width: 560px) {
+    .abodelogo{
+      max-height: 100%;  
+      max-width: 100%; 
+      position: absolute;  
+      top: 0;  
+      bottom: 0;  
+      left: 2%;  
+      right: 0;  
+  }
+  }

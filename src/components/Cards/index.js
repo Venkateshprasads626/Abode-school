@@ -79,7 +79,7 @@ class Cards extends Component{
     />
   </div>
   <div className="col-md-4">
-    <Card imgsrc={Group6} title="Pre-School Program"
+    <Card imgsrc={Group6} title="Preschool Program"
     text="0 - 6 yrs is called the 'Sensorial Plane'. Our Preschool Program is from 3 to 6 years of age. During this phase, 
     every child experiences an innate urge to explore, work, learn and discover the world around them. This is the most sensitive stage in a child’s life,
      an age of explosive learning, where learning happens by absorbing information in an enriched PREPARED ENVIRONMENT."

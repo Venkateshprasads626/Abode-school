@@ -89,7 +89,7 @@ h4{
 @media screen and (max-width: 560px) {
  
     .footer{
-        height: 130vh;
+        height: 100%;
     }
     .h4-footer{
         text-align: left;

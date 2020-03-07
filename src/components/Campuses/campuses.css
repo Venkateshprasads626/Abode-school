@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+  .Campuses{
+      margin-top: 0%;
+      margin-bottom: 8%;
+  }
+    .rounded-circle{
+        width: 180px;
+        height: 180px;
+    }
+    .campuses-text{
+        font-size: 18px;
+        margin-top: 5%;
+    }
+    .campuses{
+        margin-top: 5%;
+    }
+   
+}
+
+@media screen and (min-width: 992px) {
+    .Campuses{
+        margin-top: 2%;
+    }
+    .rounded-circle{
+        width: 200px;
+        height: 200px;
+    }
+    .campuses-text{
+        font-size: 22px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .rounded-circle{
+        width: 300px;
+        height: 300px;
+    }
+    .campuses-hd{
+        font-size: 35px;
+    }
+  
+   
+}
+@media screen and (max-width: 560px) {
+    .rounded-circle{
+        width: 200px;
+        height: 200px;
+    }
+    .campuses-hd{
+        margin-top: 5%;
+    }
+}

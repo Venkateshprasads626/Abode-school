@@ -1,5 +1,8 @@
 import React from 'react'
 import './footer.css'
+import social1 from '../../Images/social1.svg'
+import social2 from '../../Images/social2.svg'
+import social3 from '../../Images/social3.svg'
 
 const Footer = props =>(
   
@@ -14,88 +17,33 @@ const Footer = props =>(
       
         <div className="col-md-3 mt-md-0 mt-3">
             <h4 className="h4-footer">Contact ABODE</h4>
-          <p className="add">Gachibowli Campus:<br/>
+              <p className="add">Gachibowli Campus:<br/>
                   MIG 29 - 32<br/>
                   Opp. DLF 3rd Gate<br/>
                   Gachibowli, Hyderabad<br/>
                   Ph: 7416056558, 90101 85000<br/>
-                  Email: abodekids@gmail.com </p>
-  
+                  Email: abodekids@gmail.com 
+              </p>
         </div>
+
         <div className="col-md-3 mt-md-0 mt-3">
-  <p className="add1">Nallagandla Campus:<br/>
-      86/C, Huda Layout<br/>
-      Opp Aparna Sarovar<br/>
-      Nallagandla, Hyderabad<br/>
-      Ph: 9666448000.</p>
-
-</div>
-       
-  
-        <hr className="clearfix w-100 d-md-none pb-3" />
-  
-       
-        <div className="col-md-2 mb-md-0 mb-3">
-  
-       
-          <h5 className="text-uppercase">About</h5>
-  
-          <ul className="list-unstyled">
-            <li>
-              <a href="#">Our Philosophy</a>       
-          </li>
-            <li>
-              <a href="#">Our History</a>
-            </li>
-            <li>
-              <a href="#!">Our Campus</a>
-            </li>
-          </ul>
-  
+          <p className="add1">Nallagandla Campus:<br/>
+            86/C, Huda Layout<br/>
+            Opp Aparna Sarovar<br/>
+            Nallagandla, Hyderabad<br/>
+            Ph: 9666448000.
+            </p>
         </div>
-   
-        <div className="col-md-2 mb-md-0 mb-3">
-  
-       
-          <h5 className="text-uppercase">Our School</h5>
-  
-          <ul className="list-unstyled">
-          <li>
-              <a href="#!">Toddler</a>       
-          </li>
-            <li>
-              <a href="#!">Pre-School</a>
-            </li>
-            <li>
-              <a href="#!">Elementary</a>
-            </li>
-          </ul>
-  
+        <hr className="clearfix w-100 d-md-none pb-3" />  
+        <div className="col-md-3 mt-md-0 mt-3">
+        <button style={{fontFamily: "Merriweather",background: "#000080"}} type="button" className="btn btn-primary btn3">Schedule a visit</button>
         </div>
-          
-        <div className="col-md-2 mb-md-0 mb-3">
-  
-       
-          <h5 className="text-uppercase">Useful Links</h5>
-  
-          <ul className="list-unstyled">
-          <li>
-              <a href="#!">Why ABODE ?</a>       
-          </li>
-            <li>
-              <a href="#!">Visit US</a>
-            </li>
-            <li>
-              <a href="#!">Apply</a>
-            </li>
-            <li>
-              <a href="#!">FAQ's</a>
-            </li>
-          </ul>
-  
+        <div className="col-md-3 mt-md-0 mt-3 social-links">
+        <h4 className="h4-footer">Follow us</h4>
+          <a  href="https://www.facebook.com/ABODESchool/" target="_blank"><img src={social1} className="social11 " /></a>
+          <a href="https://twitter.com/AbodeKids" target="_blank"><img src={social2}  className="social22"/></a>
+          <a href="https://www.instagram.com/abode_school/" target="_blank"><img src={social3}  className="social33" /></a> 
         </div>
-
-  
       </div>
  
     </div>   

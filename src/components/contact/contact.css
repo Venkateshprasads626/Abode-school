@@ -74,9 +74,14 @@ textarea{
 }
 .btn6{
     margin-top: 5%;
-
     width: 150px;
+    background: #000080;
 }
+.btn6:hover{
+    background: #000080;
+}
+
+
 
 @media screen and (max-width: 560px) {
     form{
@@ -154,6 +159,11 @@ textarea{
     
 }
 
+@media screen and (min-width: 992px) {
+    #contact{
+        margin-left: 10%;
+      }
+}
 @media screen and (min-width: 1200px) {
     .row{
         left: 0;
@@ -219,4 +229,7 @@ textarea{
     
         width: 150px;
     }
+    #contact{
+        margin-left: 18%;
+      }
 }

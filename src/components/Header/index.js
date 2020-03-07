@@ -13,7 +13,10 @@ const Header = props =>(
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto navbar-nav1">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Term Date</a>
+                                <a className="nav-link" href="#">Calender</a>
+                            </li>
+                            <li className="nav-item">
+                               <a  className="nav-link" href="https://abode.myclassboard.com/" target="_blank">Parents Login</a>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact</Link>
@@ -45,19 +48,42 @@ const Header = props =>(
               <Link to="/About/Philosophy"><button className="dropdown-item" type="button">Our Philosophy</button></Link>
               <Link to="/About/history"><button className="dropdown-item" type="button">Our History</button></Link>
               <Link to="/About/campus"><button className="dropdown-item" type="button">Our Campus</button></Link>
+              <Link to="#"><button className="dropdown-item dropright" type="button">Our People
+                <div class="dropdown-menu">
+                    <Link to="#"><button className="dropdown-item" type="button">Founder</button></Link>
+                    <Link to="#"><button className="dropdown-item" type="button">Core Team</button></Link>
+                    <Link to="#"><button className="dropdown-item" type="button">Advising Team</button></Link>
+                </div>  
+              </button></Link>
               </div>
       </li>
    
-      <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Our School
-          </a>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <Link to="/School/Toddler"><button className="dropdown-item" type="button">Toddler</button></Link>
-                <Link to="/School/Preschool"><button className="dropdown-item" type="button">Preschool</button></Link>
-                <Link to="/School/Elementary"><button className="dropdown-item" type="button">Elementary</button></Link>
-            </div>
-      </li>
+        <li class="nav-item dropdown megamenu-li">
+            <a class="nav-link " href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our School</a>
+                <div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
+                    <div className="row">
+                        <div class="col-sm-5 col-lg-3">
+                             <h5 className="toddler-hd"style={{color:"#000080",fontFamily: "Merriweather"}}>Toddler</h5>
+                            <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Toddlers</a>
+                            <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Usefull Information</a>
+                            <div className="vl1"></div>
+                        </div>
+                        <div class="col-sm-4 col-lg-3">
+                            <h5 className="preschool-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>PreSchool</h5>
+  					        <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Preschool</a>
+                            <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Curriculum</a>
+                            <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Early Readers program</a>
+                            <div className="vl2"></div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 ele">
+                            <h5 className="elementary-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>Elementary</h5>
+ 					        <a style={{fontSize: "15px"}} class="dropdown-item" href="#">Elementary</a>
+                            <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Our Curriculum</a>
+                            <div className="vl3"></div>     
+                        </div>
+                    </div>
+                </div>
+        </li>
    
       <li class="nav-item dropdown">
           <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -66,27 +92,20 @@ const Header = props =>(
             <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <Link to="/Abodelife/Multipleintelligence"><button className="dropdown-item" type="button">Multiple Intelligence</button></Link>
                 <Link to="/Abodelife/Higherintelligence"><button className="dropdown-item" type="button">Higher Intelligence</button></Link>
-                <Link to="/Abodelife/Bookbag"><button className="dropdown-item" type="button">Book Bag program</button></Link>
+                <Link to="/Abodelife/Bookbag"><button className="dropdown-item" type="button">Our Differentiation</button></Link>
             </div>
       </li>
       <li class="nav-item dropdown">
           <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Abode Team
+          Gallery
           </a>
             <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <Link to="#"><button className="dropdown-item" type="button">Founders</button></Link>
-                <Link to="#"><button className="dropdown-item" type="button">Senior management</button></Link>
-                <Link to="#"><button className="dropdown-item" type="button">Teachers</button></Link>
-                <Link to="#"><button className="dropdown-item" type="button">Resource Teachers</button></Link>
-                <Link to="#"><button className="dropdown-item" type="button">Management Team</button></Link>
-                <Link to="#"><button className="dropdown-item" type="button">Support staff</button></Link>
+                <Link to="#"><button className="dropdown-item" type="button">Photo Gallery</button></Link>
+                <Link to="#"><button className="dropdown-item" type="button">Video Gallery</button></Link>
+             
             </div>
       </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          FAQ's
-          </a>
-      </li>
+     
       </ul>
   </div>
   <button type="button" className="btn btn1">Admissions</button>

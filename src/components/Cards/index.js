@@ -33,11 +33,11 @@ class Cards extends Component{
                         <div className="card-body">
                         <h5 className="card-title">Elementary Program</h5>
                         <p className="card-text">Our Elementary & Middle School Community cultivates your child’s imagination, reasoning skills, social development, and intellect by providing individualized and small group lessons and projects.</p>
-<<<<<<< HEAD
+
                         <button type="button" className="btn btn-lg btn2">Explore the Elementory Program</button>
-=======
+
                         <button type="button" className="btn btn-lg">Explore the Elementary Program</button>
->>>>>>> ae1880daa94e64ee98d1af5db662acf0d7d48b1a
+
                         </div>
                     </div>
                 </div> */}

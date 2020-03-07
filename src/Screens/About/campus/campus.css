@@ -52,10 +52,7 @@
 
 }
 @media screen and (max-width: 560px) {
-    .card2{
-      
-        margin-left: 40%;
-    }
+ 
     .card-text1{
         font-size: 10px;
         line-height: 1.5;

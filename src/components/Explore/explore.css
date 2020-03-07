@@ -1,5 +1,5 @@
 .Explore{
-    margin-top: 0px;
+    margin-bottom: 5%;
 }
 
 .explore-text{
@@ -15,9 +15,12 @@ h1{
 }
 
 @media screen and (min-width: 320px) {
+    .Explore{
+        margin-top: 5%;
+    }
     .explore-text{
         font-size: 0.9rem;
-        margin-top: 30px;
+        margin-top: 10px;
         font-family: 'Merriweather';
         margin-bottom: 2%;
     }
@@ -35,20 +38,22 @@ h1{
         margin-bottom: 2%;
     }
     h1{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin-top: 2%;
     }
 }
 @media screen and (min-width: 1200px) {
-   
+   .Explore{
+       margin-top: 0px;
+   }
     .explore-text{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-top: 10px;
         font-family: 'Merriweather';
         margin-bottom: 2%;
     }
     h1{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         margin-top: 2%;
     }
 }

@@ -17,13 +17,13 @@ const Home = props =>(
     <div id="site-wrapper">
         <Header />
         <div id="page-content">
-            <Banner />
-            <Campuses />
-            <h5 className="text-center our-programs our" style={{letterSpacing: "2px",fontSize: "35px",fontFamily: "Merriweather"}}>Our Programs</h5>
+            <Banner /><br/><br/>
+            <h5 className="text-center our-programs our" style={{letterSpacing: "2px",fontSize: "35px",fontFamily: "Merriweather",color: "#000080"}}>Our Programs</h5>
             <Explore />
             <Cards />
             <h5 className="text-center our-programs" style={{color: "#000080",fontFamily: "Merriweather"}}>Our Philosophy</h5>
             <Ourphilosophy />
+            <Campuses />
             <h5 className="text-center our-programs" style={{color: "#000080",fontFamily: "Merriweather"}}>From Our Families</h5>
             <Testimonial />
             <Youtube /> 

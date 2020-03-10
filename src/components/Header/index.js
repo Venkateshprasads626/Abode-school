@@ -34,7 +34,7 @@ const Header = props =>(
               
   <nav className="navbar navbar-expand-lg sticky-top bg-white navbar-light nav2">
   <a  href="/"><img src={abodelogo} className="abodelogo" /></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -63,20 +63,20 @@ const Header = props =>(
                 <div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
                     <div className="row">
                         <div class="col-sm-5 col-lg-3">
-                             <h5 className="toddler-hd"style={{color:"#000080",fontFamily: "Merriweather"}}>Toddler Program</h5>
+                             <h5 className="toddler-hd"style={{color:"#000080",fontFamily: "Merriweather"}}>Toddler program</h5>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Toddlers</a>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Usefull Information</a>
                             <div className="vl1"></div>
                         </div>
                         <div class="col-sm-4 col-lg-3">
-                            <h5 className="preschool-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>Preschool Program</h5>
+                            <h5 className="preschool-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>Preschool program</h5>
   					        <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Preschool</a>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Curriculum</a>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Early Readers program</a>
                             <div className="vl2"></div>
                         </div>
                         <div class="col-sm-6 col-lg-3 ele">
-                            <h5 className="elementary-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>Elementary Program</h5>
+                            <h5 className="elementary-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>Elementary program</h5>
  					        <a style={{fontSize: "15px"}} class="dropdown-item" href="#">Elementary</a>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Our Curriculum</a>
                             <div className="vl3"></div>     
@@ -87,7 +87,7 @@ const Header = props =>(
    
       <li class="nav-item dropdown">
           <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Abode Life
+          ABODE Life
           </a>
             <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <Link to="/Abodelife/Multipleintelligence"><button className="dropdown-item" type="button">Multiple Intelligence</button></Link>

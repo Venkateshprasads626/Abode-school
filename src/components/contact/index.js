@@ -31,7 +31,7 @@ const contact = props =>(
                <p className="contact-add3">Admissions & General Enquiries:</p>
                 <p className="contact-add4">info@wellingtonschool.org</p>
 
-                <p className="contact-add3"> Headmaster:</p>
+                <p className="contact-add3"> Careers Mail:</p>
                 <p className="contact-add4"> abode.hiring@gmail.com </p>
 
              
@@ -39,7 +39,7 @@ const contact = props =>(
             </div>
             <div className="col-md-5 questions">
             <h3 className="contact-title">Questions & Queries</h3>
-            <p className="contact-add5">If you have any questions or queries please fill out the form below</p>
+            <p className="contact-add5">If you have any questions or queries<br/>please fill out the form below</p>
             <form>
                 <label>Your Name *</label><br/>
                 <input type="text" name="name" id="name" /><br/><br/>

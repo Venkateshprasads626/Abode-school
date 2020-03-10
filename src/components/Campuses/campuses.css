@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .Campuses{
       margin-top: 0%;
       margin-bottom: 8%;
@@ -75,5 +75,114 @@
     }
     .campuses-hd{
         margin-top: 5%;
+    }
+} */
+
+
+@media screen and (min-width: 768px) {
+    .Campuses{
+        margin-bottom: 8%;
+    }
+    .campus1,.campus2{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .circle1,.circle2{
+        width: 150px;
+        height: 150px;
+        margin-top: 8%;
+        margin-left: -50%;
+    }
+    .campus1{
+        width: 360px;
+        height: 230px;
+    }
+    .campus2{
+        width: 360px;
+        height: 230px;
+        
+    }
+    .campuses-text{
+        font-size: 15px;
+        margin-left: 45%;
+        margin-top: -33%; 
+    }
+    .btn4{
+        font-size: 13px;
+        margin-top: 2%;
+        margin-left: 45%;
+    }
+    .nalla-campus,.Gachi-campus{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .campus1{
+        width: 700px;
+        height: 330px;
+    }
+    .campus2{
+        width: 700px;
+        height: 330px;
+    }
+    .circle1,.circle2{
+        width: 250px;
+        height: 250px;
+        margin-top: 8%;
+        margin-left: -50%;
+    }
+    .campuses-text{
+        font-size: 20px;
+        margin-left: 35%;
+        margin-top: -28%; 
+    }
+    .btn4{
+        font-size: 18px;
+        margin-top: 2%;
+        margin-left: 35%;
+    }
+    .nalla-campus,.Gachi-campus{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .Campuses{
+        margin-bottom: 8%;
+    }
+    .campus1,.campus2{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .circle1,.circle2{
+        width: 150px;
+        height: 150px;
+        margin-top: 8%;
+        margin-left: -50%;
+    }
+    .campus1{
+        width: 360px;
+        height: 230px;
+    }
+    .campus2{
+        width: 360px;
+        height: 230px;
+        
+    }
+    .campuses-text{
+        font-size: 15px;
+        margin-left: 45%;
+        margin-top: -33%; 
+    }
+    .btn4{
+        font-size: 13px;
+        margin-top: 2%;
+        margin-left: 45%;
+    }
+    .nalla-campus,.Gachi-campus{
+        font-size: 18px;
     }
 }

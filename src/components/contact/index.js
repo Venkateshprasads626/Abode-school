@@ -2,11 +2,14 @@ import React from 'react'
 import './contact.css'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import abodemap from '../../Images/abodemap.svg'
 
 const contact = props =>(
     <div id="site-wrapper">
         <Header />
+        <a href="https://www.google.com/maps/place/ABODE+Montessori+and+Multiple+Intelligence+School/@17.4507542,78.3565997,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb93b8d927e705:0xeb1bf1b8ee9164dc!8m2!3d17.4507491!4d78.3587937" target="_blank"><img src={abodemap} className="abodemap" /></a>
     <div id="contact">
+        
         <div className="row">
             <div className="col-md-3 address">
                 <h3 className="contact-title">Our Address</h3>

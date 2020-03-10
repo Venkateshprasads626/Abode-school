@@ -7,26 +7,28 @@ const Campuses = props =>(
     <div className="Campuses">
           <h3 className="text-center campuses-hd" style={{fontFamily: "Merriweather",color: "#000080"}}>Our Campuses</h3>
    <div className="row row2">
-        <div className="col-md-3"></div>
-       <div className="col-md-3 campuses">
-       <img src={Group11} className="rounded-circle" alt="Cinque Terre" />
+       
+       <div className="col-md-6 campuses1">
+       <img src={Group11} className="rounded-circle circle1" alt="Cinque Terre" />
+       <div>
        <p style={{fontFamily: "Merriweather"}} className="campuses-text">
-          <p style={{fontSize: "24px"}}>Gachibowli Campus</p>
+          <p className="Gachi-campus">Gachibowli Campus</p>
            Toddlers,Preschool,<br/>
            Elementary upto<br/>
            Grade 2
        </p>
        </div>
-       <div className="col-md-3 campuses">
-       <img src={school} className="rounded-circle" alt="Cinque Terre"/>
+       </div>
+       <div className="col-md-6 campuses">
+       <img src={school} className="rounded-circle circle2" alt="Cinque Terre"/>
        <p style={{fontFamily: "Merriweather"}} className="campuses-text">
-       <p style={{fontSize: "24px"}}>Nallagandla Campus</p>
+       <p className="nalla-campus">Nallagandla Campus</p>
           Toddlers,Preschool,<br/>
           Elementary upto<br/>
           Grade 28
        </p>
        </div>
-       <div className="col-md-3"></div>
+      
    </div>
    </div>
 );

@@ -11,7 +11,7 @@ const Campuses = props =>(
        <div className="col-md-3 campuses">
        <img src={Group11} className="rounded-circle" alt="Cinque Terre" />
        <p style={{fontFamily: "Merriweather"}} className="campuses-text">
-           Gachibowli Campus<br/>
+          <p style={{fontSize: "24px"}}>Gachibowli Campus</p>
            Toddlers,Preschool,<br/>
            Elementary upto<br/>
            Grade 2
@@ -20,7 +20,7 @@ const Campuses = props =>(
        <div className="col-md-3 campuses">
        <img src={school} className="rounded-circle" alt="Cinque Terre"/>
        <p style={{fontFamily: "Merriweather"}} className="campuses-text">
-          Nallagandla Campus<br/>
+       <p style={{fontSize: "24px"}}>Nallagandla Campus</p>
           Toddlers,Preschool,<br/>
           Elementary upto<br/>
           Grade 28

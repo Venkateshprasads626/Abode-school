@@ -46,13 +46,13 @@ const Header = props =>(
           </a>
           <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
               <Link to="/About/Philosophy"><button className="dropdown-item" type="button">Our Philosophy</button></Link>
+              <Link to="/About/campus"><button className="dropdown-item" type="button">Our Campuses</button></Link>
               <Link to="/About/history"><button className="dropdown-item" type="button">Our History</button></Link>
-              <Link to="/About/campus"><button className="dropdown-item" type="button">Our Campus</button></Link>
               <Link to="#"><button className="dropdown-item dropright" type="button">Our People
                 <div class="dropdown-menu">
                     <Link to="#"><button className="dropdown-item" type="button">Founder</button></Link>
                     <Link to="#"><button className="dropdown-item" type="button">Core Team</button></Link>
-                    <Link to="#"><button className="dropdown-item" type="button">Advising Team</button></Link>
+                    <Link to="#"><button className="dropdown-item" type="button"> Advisory team </button></Link>
                 </div>  
               </button></Link>
               </div>
@@ -63,20 +63,20 @@ const Header = props =>(
                 <div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
                     <div className="row">
                         <div class="col-sm-5 col-lg-3">
-                             <h5 className="toddler-hd"style={{color:"#000080",fontFamily: "Merriweather"}}>Toddler</h5>
+                             <h5 className="toddler-hd"style={{color:"#000080",fontFamily: "Merriweather"}}>Toddler Program</h5>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Toddlers</a>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Usefull Information</a>
                             <div className="vl1"></div>
                         </div>
                         <div class="col-sm-4 col-lg-3">
-                            <h5 className="preschool-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>PreSchool</h5>
+                            <h5 className="preschool-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>Preschool Program</h5>
   					        <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Preschool</a>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Curriculum</a>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Early Readers program</a>
                             <div className="vl2"></div>
                         </div>
                         <div class="col-sm-6 col-lg-3 ele">
-                            <h5 className="elementary-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>Elementary</h5>
+                            <h5 className="elementary-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>Elementary Program</h5>
  					        <a style={{fontSize: "15px"}} class="dropdown-item" href="#">Elementary</a>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Our Curriculum</a>
                             <div className="vl3"></div>     
@@ -92,7 +92,7 @@ const Header = props =>(
             <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <Link to="/Abodelife/Multipleintelligence"><button className="dropdown-item" type="button">Multiple Intelligence</button></Link>
                 <Link to="/Abodelife/Higherintelligence"><button className="dropdown-item" type="button">Higher Intelligence</button></Link>
-                <Link to="/Abodelife/Bookbag"><button className="dropdown-item" type="button">Our Differentiation</button></Link>
+                <Link to="/Abodelife/Bookbag"><button className="dropdown-item" type="button">Our Differentiators </button></Link>
             </div>
       </li>
       <li class="nav-item dropdown">
@@ -108,7 +108,7 @@ const Header = props =>(
      
       </ul>
   </div>
-  <button type="button" className="btn btn1">Admissions</button>
+  <Link to="/Admissions"><button type="button" className="btn btn1">Admissions</button></Link>
 </nav>
 </div>
 

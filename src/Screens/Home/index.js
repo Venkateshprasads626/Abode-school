@@ -19,12 +19,12 @@ const Home = props =>(
         <div id="page-content">
             <Banner />
             <Campuses />
-            <h5 className="text-center our-programs our" style={{color: "red",letterSpacing: "2px",fontSize: "35px",fontFamily: "Merriweather"}}>Our Programs</h5>
+            <h5 className="text-center our-programs our" style={{letterSpacing: "2px",fontSize: "35px",fontFamily: "Merriweather"}}>Our Programs</h5>
             <Explore />
             <Cards />
             <h5 className="text-center our-programs" style={{color: "#000080",fontFamily: "Merriweather"}}>Our Philosophy</h5>
             <Ourphilosophy />
-            <h5 className="text-center our-programs" style={{color: "#000080",fontFamily: "Merriweather"}}>From our Families</h5>
+            <h5 className="text-center our-programs" style={{color: "#000080",fontFamily: "Merriweather"}}>From Our Families</h5>
             <Testimonial />
             <Youtube /> 
             <Events />   

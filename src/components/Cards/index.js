@@ -83,14 +83,14 @@ class Cards extends Component{
     text="0 - 6 yrs is called the 'Sensorial Plane'. Our Preschool Program is from 3 to 6 years of age. During this phase, 
     every child experiences an innate urge to explore, work, learn and discover the world around them. This is the most sensitive stage in a child’s life,
      an age of explosive learning, where learning happens by absorbing information in an enriched PREPARED ENVIRONMENT."
-     btn="Explore the Pre-School Program"
+     btn="Discover the Preschool Program"
     />
   </div>
   <div className="col-md-4">
     <Card imgsrc={Group7} title="Elementary Program"
     text="Our Elementary & Middle School Community cultivates your child’s imagination, reasoning skills, social development,
      and intellect by providing individualized and small group lessons and projects."
-     btn="Explore the Elementary Program"
+     btn="Discover the Elementary Program"
     />
   </div>
 </div>

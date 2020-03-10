@@ -16,7 +16,6 @@ const contact = props =>(
                 Opp. DLF 3rd Gate<br/>
                 Gachibowli, Hyderabad<br/>
                 Ph: 7416056558, 90101 85000<br/>
-                Email: abodekids@gmail.com
                 </p>
                 <p className="contact-add1">Nallagandla Campus:<br/>
                     86/C, Huda Layout<br/>
@@ -33,7 +32,7 @@ const contact = props =>(
                 <p className="contact-add4">info@wellingtonschool.org</p>
 
                 <p className="contact-add3"> Headmaster:</p>
-                <p className="contact-add4">headmaster@wellingtonschool.org</p>
+                <p className="contact-add4"> abode.hiring@gmail.com </p>
 
              
                 </p>

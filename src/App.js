@@ -14,6 +14,7 @@ import Multipleintelligence from './Screens/Abodelife/Multipleintelligence'
 import Higherintelligence from './Screens/Abodelife/Higherintelligence'
 import Bookbag from './Screens/Abodelife/Bookbag'
 import contact from './components/contact'
+import Admissions from './Screens/Admissions';
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
           <Route path="/Abodelife/Multipleintelligence" component={Multipleintelligence} />
           <Route path="/Abodelife/Higherintelligence" component={Higherintelligence} />
           <Route path="/Abodelife/Bookbag" component={Bookbag} />
+
+          <Route path="/Admissions" component={Admissions} />
 
         </Switch>
         </BrowserRouter>

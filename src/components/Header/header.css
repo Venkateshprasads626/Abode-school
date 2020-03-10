@@ -2,10 +2,11 @@
     height: 60px;
     background-color: #f2f2f2;
     box-sizing: border-box;
-    box-shadow: 0 10px 40px rgb(150, 16, 16) !important;
+ 
   }
   .navbar {
       min-height: 80px;
+      box-shadow: 0 10px 20px rgb(207, 202, 202) !important;
     }
 
     .dropdown:hover>.dropdown-menu{

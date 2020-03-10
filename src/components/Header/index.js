@@ -102,10 +102,9 @@ const Header = props =>(
             <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <Link to="#"><button className="dropdown-item" type="button">Photo Gallery</button></Link>
                 <Link to="#"><button className="dropdown-item" type="button">Video Gallery</button></Link>
-             
             </div>
       </li>
-     
+      <Link to="/Admissions"><button type="button" className="btn btn2">Admissions</button></Link>
       </ul>
   </div>
   <Link to="/Admissions"><button type="button" className="btn btn1">Admissions</button></Link>

@@ -9,22 +9,24 @@ const Ourphilosophy = props =>(
     <div className="ourphilosophy" style={{marginTop: "5%"}}>
         <div className="row">
             <div className="col-md-4">
-                <Card  imgsrc={Group5} title="Multiple Intelligence"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
-                btn="Explore Multiple Intelligence"
+                <Card  imgsrc={Group5} title="Montessori" title2="Joy of life"
+                text="Montessori is an international
+                curriculum that is child-centric,
+                hands-on, based on scientific observation of the child's learning process."
+                btn="Explore Montessori"
                 />
             </div>
 
             <div className="col-md-4">
-                <Card imgsrc={Group14} title="Higher Intelligence"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
-                btn="Explore Higher Intelligence"
+                <Card imgsrc={Group14} title="Multiple Intelligence" title2="Discover your unirueness"
+                text="During 2 to 7 years of gae, every child is exposed to a broad list of activities to identify their dominant intelligence."
+                btn="Explore Multiple Intelligence"
                 />
             </div>
             <div className="col-md-4">
-                <Card imgsrc={Group16} title="Book bag Program"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
-                btn="Explore Book bag Program"
+                <Card imgsrc={Group16} title="Higher Intelligence" title2="Celbrate your uniqueness"
+                text="Each child is identified with one or more higher intelligence and spends long periods of time on a regular basis to nurture and strengthen them."
+                btn="Explore Higher Intelligence"
                 />
             </div>
         </div>

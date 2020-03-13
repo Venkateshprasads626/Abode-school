@@ -10,6 +10,7 @@ const Card = props =>{
             </div>
             <div className="card-body text-dark">
                 <h4 className="card-title">{props.title}</h4>
+                <h3 className="card-title2">{props.title2}</h3>
                 <p className="card-text text-secondary">{props.text}</p>
                 <a href="#" className="btn btn-outline ">{props.btn}</a>
             </div>

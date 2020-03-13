@@ -71,7 +71,7 @@ class Cards extends Component{
 
 <div className="row">
   <div className="col-md-4">
-    <Card  imgsrc={Group5} title="Toddlers Program"
+    <Card  imgsrc={Group5} title="Toddlers Program" title2="18 months to 3 years"
     text="This age and stage in a child's life is the absorbent phase. Our Toddlers program is from 1 1/2 yrs to 3yrs .
      Our goal is to create numerous opportunities to work with 
      various tools for the kid to explore and grow as a confidant and independent toddler."
@@ -79,7 +79,7 @@ class Cards extends Component{
     />
   </div>
   <div className="col-md-4">
-    <Card imgsrc={Group6} title="Preschool Program"
+    <Card imgsrc={Group6} title="Preschool Program" title2="3 to 6 years"
     text="0 - 6 yrs is called the 'Sensorial Plane'. Our Preschool Program is from 3 to 6 years of age. During this phase, 
     every child experiences an innate urge to explore, work, learn and discover the world around them. This is the most sensitive stage in a child’s life,
      an age of explosive learning, where learning happens by absorbing information in an enriched PREPARED ENVIRONMENT."
@@ -87,7 +87,7 @@ class Cards extends Component{
     />
   </div>
   <div className="col-md-4">
-    <Card imgsrc={Group7} title="Elementary Program"
+    <Card imgsrc={Group7} title="Elementary Program" title2="Grade 1 to 8"
     text="Our Elementary & Middle School Community cultivates your child’s imagination, reasoning skills, social development,
      and intellect by providing individualized and small group lessons and projects."
      btn="Discover the Elementary Program"

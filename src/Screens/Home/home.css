@@ -17,7 +17,24 @@ html,body{
 .our-programs{
   font-size: 30px;
 }
-
+.ourphi-text{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  font-weight: 500;
+}
+.ourphi-text1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  font-weight: 550;
+  margin-top: -2%;
+}
+.text3,.text4{
+  font-family: "Merriweather";
+  font-size: 18px;
+}
+.text4{
+  margin-top: -12px;
+}
 @media screen and (max-width: 560px) {
   .our{
     margin-top: 2%;

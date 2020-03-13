@@ -5,6 +5,7 @@
 .card{
     border: none;
     margin-bottom: 5%;
+    margin-top: 2%;
 }
 /* .card:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
@@ -16,6 +17,11 @@
 .card-title{
     font-family: 'Merriweather';
     font-size: 1.2rem;
+}
+.card-title2{
+    font-family: 'Merriweather';
+    font-size: 1rem;
+    color: gray;
 }
 .card-text{
     font-size: 0.9rem;

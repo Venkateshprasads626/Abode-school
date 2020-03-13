@@ -45,9 +45,8 @@ const Header = props =>(
           About
           </a>
           <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <Link to="/About/Philosophy"><button className="dropdown-item" type="button">Our Philosophy</button></Link>
-              <Link to="/About/campus"><button className="dropdown-item" type="button">Our Campuses</button></Link>
-              <Link to="/About/history"><button className="dropdown-item" type="button">Our History</button></Link>
+              {/* <Link to="/About/Philosophy"><button className="dropdown-item" type="button">Our Philosophy</button></Link> */}
+              <Link to="/About/campus"><button className="dropdown-item" type="button">Our story</button></Link>
               <Link to="#"><button className="dropdown-item dropright" type="button">Our People
                 <div class="dropdown-menu">
                     <Link to="#"><button className="dropdown-item" type="button">Founder</button></Link>
@@ -55,6 +54,15 @@ const Header = props =>(
                     <Link to="#"><button className="dropdown-item" type="button"> Advisory team </button></Link>
                 </div>  
               </button></Link>
+              <Link to="/About/campus"><button className="dropdown-item dropright" type="button">Our Campuses
+              <div class="dropdown-menu">
+                    <Link to="#"><button className="dropdown-item" type="button">Gachibowli</button></Link>
+                    <Link to="#"><button className="dropdown-item" type="button">Nallagandla</button></Link>
+                   
+                </div>
+              </button></Link>
+              {/* <Link to="/About/history"><button className="dropdown-item" type="button">Our History</button></Link> */}
+            
               </div>
       </li>
    
@@ -79,6 +87,7 @@ const Header = props =>(
                             <h5 className="elementary-hd" style={{color:"#000080",fontFamily: "Merriweather"}}>Elementary program</h5>
  					        <a style={{fontSize: "15px"}} class="dropdown-item" href="#">Elementary</a>
                             <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Our Curriculum</a>
+                            <a style={{fontSize: "15px"}}class="dropdown-item" href="#">Our Differntiators</a>
                             <div className="vl3"></div>     
                         </div>
                     </div>

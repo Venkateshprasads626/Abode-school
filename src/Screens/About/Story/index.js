@@ -3,7 +3,7 @@ import './story.css'
 import Header from '../../../components/Header'
 import Footer from '../../../components/Footer'
 import Group10 from '../../../Images/Group10.jpg'
-import prince2 from '../../../Images/prince2.jpg'
+import story from '../../../Images/story.jpg'
 
 class Story extends Component{
     render() {
@@ -18,10 +18,8 @@ class Story extends Component{
               <div className="main-container">
                   <div className="content-container">
                       <div className="image-container">
-                          <img src={prince2}  className="image1"/>
-                          <h1 className="prince-text1">Suman Puvvaladasu</h1>
-                          <h2 className="prince-text2">Founder & Director</h2>
-                          <p>ABODE Montessori & Multiple Intelligence School & PratibhaSchools.org. </p>
+                          <img src={story}  className="image1"/>
+                          
                       </div>
                       <div className="text-container1">
                           <p className="text2">

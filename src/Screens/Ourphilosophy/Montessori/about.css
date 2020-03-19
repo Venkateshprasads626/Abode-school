@@ -11,7 +11,7 @@
 .group8{
     width: 100%;
 }
-
+/* 
 @media screen and (min-width: 768px) {
     .card2{
         margin-top: 5%;
@@ -30,12 +30,15 @@
         text-align: start;
         margin-left: 5%;
     }
+    .our-diff{
+        font-size: 25px;
+        font-family: "Merriweather";
+        color: #000080;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-    .card2{
-        height: 700px;
-    }
+  
     .card-text1{
         font-size: 20px;
         line-height: 1.5;
@@ -50,7 +53,7 @@
 
 }
 @media screen and (max-width: 560px) {
-  
+   
     .card-text1{
         font-size: 10px;
         line-height: 1.5;
@@ -62,4 +65,9 @@
         margin-left: 4%;
         margin-top: -6%;
     }
-}
+    .our-diff{
+        font-size: 18px;
+        font-family: "Merriweather";
+        color: #000080;
+    }
+} */

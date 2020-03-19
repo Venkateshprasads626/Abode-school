@@ -99,9 +99,9 @@ const Header = props =>(
           Our Philosophy
           </a>
             <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <Link to="/Abodelife/Multipleintelligence"><button className="dropdown-item" type="button">Montessori</button></Link>
-                <Link to="/Abodelife/Higherintelligence"><button className="dropdown-item" type="button">Multiple Intelligence</button></Link>
-                <Link to="/Abodelife/Bookbag"><button className="dropdown-item" type="button">Higher Intelligence </button></Link>
+                <Link to="/Ourphilosophy/Montessori"><button className="dropdown-item" type="button">Montessori</button></Link>
+                <Link to="/Ourphilosophy/Multipleintelligence"><button className="dropdown-item" type="button">Multiple Intelligence</button></Link>
+                <Link to="/Ourphilosophy/Higherintelligence"><button className="dropdown-item" type="button">Higher Intelligence </button></Link>
             </div>
       </li>
       <li class="nav-item dropdown">

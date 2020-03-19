@@ -46,10 +46,10 @@ const Header = props =>(
           </a>
           <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
               {/* <Link to="/About/Philosophy"><button className="dropdown-item" type="button">Our Philosophy</button></Link> */}
-              <Link to="/About/campus"><button className="dropdown-item" type="button">Our story</button></Link>
+              <Link to="/About/Story"><button className="dropdown-item" type="button">Our story</button></Link>
               <Link to="#"><button className="dropdown-item dropright" type="button">Our People
                 <div class="dropdown-menu">
-                    <Link to="#"><button className="dropdown-item" type="button">Founder</button></Link>
+                    <Link to="/About/People/Founder"><button className="dropdown-item" type="button">Founder</button></Link>
                     <Link to="#"><button className="dropdown-item" type="button">Core Team</button></Link>
                     <Link to="#"><button className="dropdown-item" type="button"> Advisory team </button></Link>
                 </div>  
@@ -94,14 +94,41 @@ const Header = props =>(
                 </div>
         </li>
    
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Our Philosophy
+          </a>
+            <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <Link to="/Abodelife/Multipleintelligence"><button className="dropdown-item" type="button">Montessori</button></Link>
+                <Link to="/Abodelife/Higherintelligence"><button className="dropdown-item" type="button">Multiple Intelligence</button></Link>
+                <Link to="/Abodelife/Bookbag"><button className="dropdown-item" type="button">Higher Intelligence </button></Link>
+            </div>
+      </li>
       <li class="nav-item dropdown">
           <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           ABODE Life
           </a>
             <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <Link to="/Abodelife/Multipleintelligence"><button className="dropdown-item" type="button">Multiple Intelligence</button></Link>
-                <Link to="/Abodelife/Higherintelligence"><button className="dropdown-item" type="button">Higher Intelligence</button></Link>
-                <Link to="/Abodelife/Bookbag"><button className="dropdown-item" type="button">Our Differentiators </button></Link>
+                <Link to="#"><button className="dropdown-item dropright" type="button">Engage
+                <div class="dropdown-menu">
+                    <Link to="#"><button className="dropdown-item" type="button">Book Bag</button></Link>
+                    <Link to="#"><button className="dropdown-item" type="button">Adhvan</button></Link>
+                    <Link to="#"><button className="dropdown-item" type="button">Lekhan </button></Link>
+                </div> 
+                </button></Link>
+                <Link to="#"><button className="dropdown-item dropright" type="button">Enrich
+                <div class="dropdown-menu">
+                    <Link to="#"><button className="dropdown-item" type="button">Read-a-Thon</button></Link>
+                    <Link to="#"><button className="dropdown-item" type="button">Math-a-Thon</button></Link>
+                    <Link to="#"><button className="dropdown-item" type="button">Spell Bee</button></Link>
+                </div> 
+                </button></Link>
+                <Link to="#"><button className="dropdown-item dropright" type="button">Evolve
+                <div class="dropdown-menu">
+                    <Link to="#"><button className="dropdown-item" type="button">Curio</button></Link>
+                    <Link to="#"><button className="dropdown-item" type="button">Cultural Exhibitions</button></Link>
+                </div> 
+                </button></Link>
             </div>
       </li>
       <li class="nav-item dropdown">

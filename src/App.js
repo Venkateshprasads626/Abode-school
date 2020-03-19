@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import Home from './Screens/Home';
-import Philosophy from './Screens/About/Philosophy'
-import history from './Screens/About/history'
+import Story from './Screens/About/Story'
 import campus from './Screens/About/campus'
+import Founder from './Screens/About/People/Founder';
 import Toddler from './Screens/School/Toddler'
 import Preschool from './Screens/School/Preschool'
 import Elementary from './Screens/School/Elementary'
@@ -23,9 +23,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/contact" component={contact} />
-          <Route path="/About/Philosophy" component={Philosophy} />
-          <Route path="/About/history" component={history} />
+          <Route path="/About/Story" component={Story} />
           <Route path="/About/campus" component={campus} />
+          <Route path="/About/People/Founder" component={Founder} />
 
           <Route path="/School/Toddler" component={Toddler} />
           <Route path="/School/Preschool" component={Preschool} />

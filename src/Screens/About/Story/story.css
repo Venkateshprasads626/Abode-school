@@ -1,0 +1,17 @@
+#Our-story{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#page-content{
+  flex: 1 0 auto;
+  margin-bottom: 10%;
+}
+
+
